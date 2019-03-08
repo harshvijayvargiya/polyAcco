@@ -1,0 +1,96 @@
+<!-- header-container start -->
+<div class="header-container">
+  <!-- header start -->
+  <!-- classes:  -->
+  <!-- "fixed": enables fixed navigation mode (sticky menu) e.g. class="header fixed clearfix" -->
+  <!-- "fixed-desktop": enables fixed navigation only for desktop devices e.g. class="header fixed fixed-desktop clearfix" -->
+  <!-- "fixed-all": enables fixed navigation only for all devices desktop and mobile e.g. class="header fixed fixed-desktop clearfix" -->
+  <!-- "dark": dark version of header e.g. class="header dark clearfix" -->
+  <!-- "centered": mandatory class for the centered logo layout -->
+  <!-- ================ -->
+  <header class="header dark fixed fixed-all clearfix">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-auto hidden-md-down pl-3">
+          <!-- header-first start -->
+          <!-- ================ -->
+          <div class="header-first clearfix">
+
+            <!-- logo -->
+            <div id="logo" class="logo">
+              <a href="template/index.html">
+                <%= image_tag "logo_light_blue.png", id: "logo_img", alt: "The Project"%>
+              </a>
+            </div>
+
+            <!-- name-and-slogan -->
+            <div class="site-slogan">
+              Multipurpose HTML5 Template
+            </div>
+
+          </div>
+          <!-- header-first end -->
+
+        </div>
+        <div class="col-lg-7 col-xl-8 ml-auto">
+
+          <!-- header-second start -->
+          <!-- ================ -->
+          <div class="header-second clearfix">
+
+            <!-- main-navigation start -->
+            <!-- classes: -->
+            <!-- "onclick": Makes the dropdowns open on click, this the default bootstrap behavior e.g. class="main-navigation onclick" -->
+            <!-- "animated": Enables animations on dropdowns opening e.g. class="main-navigation animated" -->
+            <!-- ================ -->
+            <div class="main-navigation  animated">
+              <nav class="navbar navbar-expand-lg navbar-light p-0">
+                <div class="navbar-brand clearfix hidden-lg-up">
+
+                  <!-- logo -->
+                  <div id="logo-mobile" class="logo">
+                    <a href="index.html">
+                      <%= image_tag "logo_light_blue.png", id: "logo-img-mobile", alt: "The Project"%>
+                    </a>
+                  </div>
+
+                  <!-- name-and-slogan -->
+                  <div class="site-slogan">
+                    Multipurpose HTML5 Template
+                  </div>
+
+                </div>
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbar-collapse-1" aria-controls="navbar-collapse-1" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse scrollspy" id="navbar-collapse-1">
+                  <!-- main-menu -->
+                  <ul class="navbar-nav ml-lg-auto">
+                    <li class="nav-item"><a href="#multipages" class="nav-link smooth-scroll">Main Home Pages</a></li>
+                    <li class="nav-item"><a href="#onepages" class="nav-link smooth-scroll">One Pages</a></li>
+                    <li class="nav-item"><a href="#commerce" class="nav-link smooth-scroll">Shop</a></li>
+                    <li class="nav-item"><a href="#blog" class="nav-link smooth-scroll">Blog</a></li>
+                    <li class="nav-item"><a href="#sliders" class="nav-link smooth-scroll">Sliders</a></li>
+                  </ul>
+                  <!-- main-menu end -->
+                </div>
+              </nav>
+            </div>
+            <!-- main-navigation end -->
+          </div>
+          <!-- header-second end -->
+
+        </div>
+        <div class="col-auto ml-auto hidden-md-down">
+          <!-- header dropdown buttons -->
+          <div class="header-dropdown-buttons">
+            <a target="_blank" href="https://wrapbootstrap.com/theme/the-project-multipurpose-template-WB0F82581" class="btn btn-default-transparent m-0">Purchase Now</a>
+          </div>
+          <!-- header dropdown buttons end-->
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- header end -->
+</div>
+<!-- header-container end -->

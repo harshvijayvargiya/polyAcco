@@ -1,0 +1,616 @@
+<!-- scrollToTop -->
+<!-- ================ -->
+<div class="scrollToTop circle"><i class="fa fa-angle-up"></i></div>
+<!-- page wrapper start -->
+<!-- ================ -->
+<div class="page-wrapper">
+  <!-- banner start -->
+  <!-- ================ -->
+  <div id="banner" class="banner clearfix">
+
+    <!-- slideshow start -->
+    <!-- ================ -->
+    <div class="slideshow">
+
+      <!-- slider revolution start -->
+      <!-- ================ -->
+      <div class="slider-revolution-5-container">
+        <div id="slider-banner-fullscreen-hero" class="slider-banner-fullscreen-hero rev_slider" data-version="5.0">
+          <ul class="slides">
+            <!-- slide 1 start -->
+            <!-- ================ -->
+            <li data-transition="random" data-slotamount="default" data-masterspeed="default" data-title="Unlimited Options and Layouts">
+
+              <!-- main image -->
+              <!-- <img src="intro-images/intro-banner.jpg" alt="slidebg1" data-bgposition="center top" data-kenburns="on" data-duration="40000" data-ease="Linear.easeNone" data-scalestart="100" data-scaleend="120" data-rotatestart="0" data-rotateend="0" data-offsetstart="0 0" data-offsetend="0 0" data-bgparallax="10" > -->
+              <%= image_tag "intro-images/intro-banner.jpg", alt: "slidebg1", data: {bgposition: "center top", kenburns: "on", duration: "40000", ease: "Linear.easeNone",scalestart: "100", scaleend: "120", rotatestart: "0",rotateend: "0", offsetstart: "0 0", offsetend: "0 0", bgparallax: "10"}, class: "rev-slidebg"%>
+              
+
+              <!-- Transparent Background -->
+              <div class="tp-caption dark-translucent-bg"
+              style="background-color: rgba(0,0,0,0.65);"
+              data-x="center"
+              data-y="center"
+              data-start="0"
+              data-transform_in="opacity:0;s:600;e:Power2.easeInOut;"
+              data-transform_out="opacity:0;s:600;s:300;"
+              data-width="5000"
+              data-height="5000">
+            </div>
+
+            <!-- LAYER NR. 1 -->
+            <div class="tp-caption large_white text-center"
+            data-x="center"
+            data-y="top"
+            data-voffset="100"
+            data-start="1000"
+            data-width="['auto']"
+            data-transform_idle="o:1;"
+            data-transform_in="y:[100%];sX:1;sY:1;o:0;s:1500;e:Power4.easeInOut;"
+            data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;">
+            <span class="logo-font">The <span class="text-default">Project</span></span>  <span class="small" style="font-family: 'Helvetica Neue', Arial, sans-serif;"></span><br>Multipurpose HTML5 Template
+          </div>  
+
+          <!-- LAYER NR. 2 -->
+          <div class="tp-caption large_white tp-resizeme hidden-sm-down"
+          data-x="center"
+          data-y="top"
+          data-voffset="200"
+          data-start="1300"
+          data-width="['auto']"
+          data-transform_idle="o:1;"
+          data-transform_in="o:0;s:2000;e:Power4.easeInOut;">
+          <div class="separator light"></div>
+        </div>  
+
+        <!-- LAYER NR. 3 -->
+        <div class="tp-caption medium_white text-center hidden-sm-down"
+        data-x="center"
+        data-y="top"
+        data-voffset="240"
+        data-start="1300"
+        data-width="['auto','auto','auto','480']"
+        data-transform_idle="o:1;"
+        data-transform_in="y:[100%];sX:1;sY:1;s:1150;e:Power4.easeInOut;"
+        data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;"
+        data-mask_in="x:0px;y:0px;s:inherit;e:inherit;" 
+        data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;"
+        data-whitespace="['nowrap', 'nowrap', 'nowrap','normal']">The Project is a Powerful Multi-Concept Bootstrap Template. <br> It has endless posibilities and It is perfectly suitable for your next Project.
+      </div>
+
+      <!-- LAYER NR. 4 -->
+      <div class="tp-caption small_white text-center"
+      data-actions='[{
+      "event": "click", 
+      "action": "scrollbelow", 
+      "offset": "-66px",
+      "delay": "0"
+    }]'
+    data-x="center"
+    data-y="top"
+    data-voffset="450"
+    data-start="1600"
+    data-width="['auto']"
+    data-transform_idle="o:1;"
+    data-transform_in="y:[100%];sX:1;sY:1;s:850;e:Power4.easeInOut;"
+    data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;"
+    data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;"
+    data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;">
+    <a href="#" class="btn btn-default btn-xl margin-clear">See Demos</a>
+  </div>
+
+
+</li>
+<!-- slide 1 end -->
+</ul>
+</div>
+</div>
+<!-- slider revolution end -->
+
+</div>
+<!-- slideshow end -->
+
+</div>
+<!-- banner end -->
+
+<div id="demos"></div>
+<section id="multipages" class="pv-40 mt-3">
+  <div class="container-fluid">
+    <div class="row justify-content-md-center">
+      <div class="col-md-8">
+        <h2 class="text-center mb-4">Main Home Pages</h2>
+        <div class="separator"></div>
+        <div class="pb-4"></div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-3 col-md-6">
+        <h4 class="text-center text-muted mt-4">Default</h4>
+        <div class="image-box shadow-3 text-center mb-20">
+          <div class="overlay-container">
+            <%= image_tag 'intro-images/demo-1.jpg', alt: ""%>
+            <a target="_blank" href="template/index.html" class="overlay-link"><i class="fa fa-link"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6">
+        <h4 class="text-center text-muted mt-4">Default - RTL Version</h4>
+        <div class="image-box shadow-3 text-center mb-20">
+          <div class="overlay-container">
+              <%= image_tag 'intro-images/demo-38.jpg', alt: ""%>
+            <a target="_blank" href="template/index-rtl.html" class="overlay-link"><i class="fa fa-link"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6">
+        <h4 class="text-center text-muted mt-4">Portfolio 2</h4>
+        <div class="image-box shadow-3 text-center mb-20">
+          <div class="overlay-container">
+            <%= image_tag 'intro-images/demo-39.jpg', alt: ""%>
+            <a target="_blank" href="template/index-portfolio-2.html" class="overlay-link"><i class="fa fa-link"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6">
+        <h4 class="text-center text-muted mt-4">Corporate 1</h4>
+        <div class="image-box shadow-3 text-center mb-20">
+          <div class="overlay-container">
+              <%= image_tag 'intro-images/demo-2.jpg', alt: ""%>
+            <a target="_blank" href="template/index-corporate-1.html" class="overlay-link"><i class="fa fa-link"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-3 col-md-6">
+        <h4 class="text-center text-muted mt-4">Corporate 2</h4>
+        <div class="image-box shadow-3 text-center mb-20">
+          <div class="overlay-container">
+              <%= image_tag 'intro-images/demo-3.jpg', alt: ""%>
+            <a target="_blank" href="template/index-corporate-2.html" class="overlay-link"><i class="fa fa-link"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6">
+        <h4 class="text-center text-muted mt-4">Corporate 3</h4>
+        <div class="image-box shadow-3 text-center mb-20">
+          <div class="overlay-container">
+              <%= image_tag 'intro-images/demo-4.jpg', alt: ""%>
+            <a target="_blank" href="template/index-corporate-3.html" class="overlay-link"><i class="fa fa-link"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6">
+        <h4 class="text-center text-muted mt-4">Corporate 4 (Law Firm)</h4>
+        <div class="image-box shadow-3 text-center mb-20">
+          <div class="overlay-container">
+              <%= image_tag 'intro-images/demo-34.jpg', alt: ""%>
+            <a target="_blank" href="template/index-corporate-5.html" class="overlay-link"><i class="fa fa-link"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6">
+        <h4 class="text-center text-muted mt-4">Corporate 5</h4>
+        <div class="image-box shadow-3 text-center mb-20">
+          <div class="overlay-container">
+              <%= image_tag 'intro-images/demo-46.jpg', alt: ""%>
+            <a target="_blank" href="template/index-corporate-6.html" class="overlay-link"><i class="fa fa-link"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-3 col-md-6">
+        <h4 class="text-center text-muted mt-4">Agency</h4>
+        <div class="image-box shadow-3 text-center mb-20">
+          <div class="overlay-container">
+              <%= image_tag 'intro-images/demo-47.jpg', alt: ""%>
+            <a target="_blank" href="template/index-agency-2.html" class="overlay-link"><i class="fa fa-link"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6">
+        <h4 class="text-center text-muted mt-4">Portfolio/Agency</h4>
+        <div class="image-box shadow-3 text-center mb-20">
+          <div class="overlay-container">
+              <%= image_tag 'intro-images/demo-7.jpg', alt: ""%>
+            <a target="_blank" href="template/index-portfolio.html" class="overlay-link"><i class="fa fa-link"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6">
+        <h4 class="text-center text-muted mt-4">Gym</h4>
+        <div class="image-box shadow-3 text-center mb-20">
+          <div class="overlay-container">
+              <%= image_tag 'intro-images/demo-29.jpg', alt: ""%>
+            <a target="_blank" href="template/index-gym.html" class="overlay-link"><i class="fa fa-link"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6">
+        <h4 class="text-center text-muted mt-4">Logistics</h4>
+        <div class="image-box shadow-3 text-center mb-20">
+          <div class="overlay-container">
+              <%= image_tag 'intro-images/demo-33.jpg', alt: ""%>
+            <a target="_blank" href="template/index-logistics.html" class="overlay-link"><i class="fa fa-link"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-3 col-md-6">
+        <h4 class="text-center text-muted mt-4">Medical</h4>
+        <div class="image-box shadow-3 text-center mb-20">
+          <div class="overlay-container">
+              <%= image_tag 'intro-images/demo-8.jpg', alt: ""%>
+            <a target="_blank" href="template/index-medical.html" class="overlay-link"><i class="fa fa-link"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6">
+        <h4 class="text-center text-muted mt-4">Restaurant</h4>
+        <div class="image-box shadow-3 text-center mb-20">
+          <div class="overlay-container">
+              <%= image_tag 'intro-images/demo-9.jpg', alt: ""%>
+            <a target="_blank" href="template/index-restaurant.html" class="overlay-link"><i class="fa fa-link"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6">
+        <h4 class="text-center text-muted mt-4">Construction</h4>
+        <div class="image-box shadow-3 text-center mb-20">
+          <div class="overlay-container">
+              <%= image_tag 'intro-images/demo-24.jpg', alt: ""%>
+            <a target="_blank" href="template/index-construction.html" class="overlay-link"><i class="fa fa-link"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6">
+        <h4 class="text-center text-muted mt-4">Education</h4>
+        <div class="image-box shadow-3 text-center mb-20">
+          <div class="overlay-container">
+              <%= image_tag 'intro-images/demo-25.jpg', alt: ""%>
+            <a target="_blank" href="template/index-education.html" class="overlay-link"><i class="fa fa-link"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-3 col-md-6">
+        <h4 class="text-center text-muted mt-4">Hotel</h4>
+        <div class="image-box shadow-3 text-center mb-20">
+          <div class="overlay-container">
+              <%= image_tag 'intro-images/demo-26.jpg', alt: ""%>
+            <a target="_blank" href="template/index-hotel.html" class="overlay-link"><i class="fa fa-link"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6">
+        <h4 class="text-center text-muted mt-4">Beauty Center</h4>
+        <div class="image-box shadow-3 text-center mb-20">
+          <div class="overlay-container">
+              <%= image_tag 'intro-images/demo-28.jpg', alt: ""%>
+            <a target="_blank" href="template/index-beauty.html" class="overlay-link"><i class="fa fa-link"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6">
+        <h4 class="text-center text-muted mt-4">Wedding</h4>
+        <div class="image-box shadow-3 text-center mb-20">
+          <div class="overlay-container">
+              <%= image_tag 'intro-images/demo-10.jpg', alt: ""%>
+            <a target="_blank" href="template/index-wedding.html" class="overlay-link"><i class="fa fa-link"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6">
+        <h4 class="text-center text-muted mt-4">Landing Page</h4>
+        <div class="image-box shadow-3 text-center mb-20">
+          <div class="overlay-container">
+              <%= image_tag 'intro-images/demo-37.jpg', alt: ""%>
+            <a target="_blank" href="template/index-landing-2.html" class="overlay-link"><i class="fa fa-link"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="onepages" class="pv-40 light-gray-bg">
+  <div class="container-fluid">
+    <div class="row justify-content-md-center">
+      <div class="col-md-8">
+        <h2 class="text-center mb-4">One Pages</h2>
+        <div class="separator"></div>
+        <div class="pb-4"></div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-4 col-12">
+        <h4 class="text-center text-muted mt-4">Corporate</h4>
+        <div class="image-box shadow-3 text-center mb-20">
+          <div class="overlay-container">
+              <%= image_tag 'intro-images/demo-30.jpg', alt: ""%>
+            <a target="_blank" href="template/index-corporate-4.html" class="overlay-link"><i class="fa fa-link"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 col-12">
+        <h4 class="text-center text-muted mt-4">Agency</h4>
+        <div class="image-box shadow-3 text-center mb-20">
+          <div class="overlay-container">
+              <%= image_tag 'intro-images/demo-32.jpg', alt: ""%>
+            <a target="_blank" href="template/index-agency.html" class="overlay-link"><i class="fa fa-link"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 col-12">
+        <h4 class="text-center text-muted mt-4">Resume</h4>
+        <div class="image-box shadow-3 text-center mb-20">
+          <div class="overlay-container">
+              <%= image_tag 'intro-images/demo-31.jpg', alt: ""%>
+            <a target="_blank" href="template/index-resume.html" class="overlay-link"><i class="fa fa-link"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-4 col-12">
+        <h4 class="text-center text-muted mt-4">Restaurant 2</h4>
+        <div class="image-box shadow-3 text-center mb-20">
+          <div class="overlay-container">
+              <%= image_tag 'intro-images/demo-35.jpg', alt: ""%>
+            <a target="_blank" href="template/index-restaurant-2.html" class="overlay-link"><i class="fa fa-link"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 col-12">
+        <h4 class="text-center text-muted mt-4">Landing Page</h4>
+        <div class="image-box shadow-3 text-center mb-20">
+          <div class="overlay-container">
+              <%= image_tag 'intro-images/demo-11.jpg', alt: ""%>
+            <a target="_blank" href="template/index-landing.html" class="overlay-link"><i class="fa fa-link"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 col-12">
+        <h4 class="text-center text-muted mt-4">Coming Soon</h4>
+        <div class="image-box shadow-3 text-center mb-20">
+          <div class="overlay-container">
+              <%= image_tag 'intro-images/demo-12.jpg', alt: ""%>
+            <a target="_blank" href="template/page-coming-soon.html" class="overlay-link"><i class="fa fa-link"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-4 col-12">
+        <h4 class="text-center text-muted mt-4">One Page Version</h4>
+        <div class="image-box shadow-3 text-center mb-20">
+          <div class="overlay-container">
+              <%= image_tag 'intro-images/demo-13.jpg', alt: ""%>
+            <a target="_blank" href="template/index-one-page.html" class="overlay-link"><i class="fa fa-link"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+    </div>
+  </div>
+</section>
+
+<section id="commerce" class="pv-40">
+  <div class="container-fluid">
+    <div class="row justify-content-md-center">
+      <div class="col-md-8">
+        <h2 class="text-center mb-4">Shop</h2>
+        <div class="separator"></div>
+        <div class="pb-4"></div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-4 col-12">
+        <h4 class="text-center text-muted mt-4">Shop Home 1</h4>
+        <div class="image-box shadow-3 text-center mb-20">
+          <div class="overlay-container">
+              <%= image_tag 'intro-images/demo-5.jpg', alt: ""%>
+            <a target="_blank" href="template/index-shop.html" class="overlay-link"><i class="fa fa-link"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 col-12">
+        <h4 class="text-center text-muted mt-4">Shop Home 2</h4>
+        <div class="image-box shadow-3 text-center mb-20">
+          <div class="overlay-container">
+              <%= image_tag 'intro-images/demo-6.jpg', alt: ""%>
+            <a target="_blank" href="template/index-shop-2.html" class="overlay-link"><i class="fa fa-link"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 col-12">
+        <h4 class="text-center text-muted mt-4">Shop Grid</h4>
+        <div class="image-box shadow-3 text-center mb-20">
+          <div class="overlay-container">
+              <%= image_tag 'intro-images/demo-40.jpg', alt: ""%>
+            <a target="_blank" href="template/shop-listing-4col.html" class="overlay-link"><i class="fa fa-link"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-4 col-12">
+        <h4 class="text-center text-muted mt-4">Shop List</h4>
+        <div class="image-box shadow-3 text-center mb-20">
+          <div class="overlay-container">
+            <%= image_tag 'intro-images/demo-41.jpg', alt: ""%>
+            <a target="_blank" href="template/shop-listing-list.html" class="overlay-link"><i class="fa fa-link"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 col-12">
+        <h4 class="text-center text-muted mt-4">Product Page</h4>
+        <div class="image-box shadow-3 text-center mb-20">
+          <div class="overlay-container">
+              <%= image_tag 'intro-images/demo-42.jpg', alt: ""%>
+            <a target="_blank" href="template/shop-product.html" class="overlay-link"><i class="fa fa-link"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 col-12">
+        <h4 class="text-center text-muted mt-4">Product Page 2</h4>
+        <div class="image-box shadow-3 text-center mb-20">
+          <div class="overlay-container">
+              <%= image_tag 'intro-images/demo-43.jpg', alt: ""%>
+            <a target="_blank" href="template/shop-product-2.html" class="overlay-link"><i class="fa fa-link"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-4 col-12">
+        <h4 class="text-center text-muted mt-4">Shop Cart</h4>
+        <div class="image-box shadow-3 text-center mb-20">
+          <div class="overlay-container">
+              <%= image_tag 'intro-images/demo-44.jpg', alt: ""%>
+            <a target="_blank" href="template/shop-cart.html" class="overlay-link"><i class="fa fa-link"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 col-12">
+        <h4 class="text-center text-muted mt-4">Checkout Page</h4>
+        <div class="image-box shadow-3 text-center mb-20">
+          <div class="overlay-container">
+              <%= image_tag 'intro-images/demo-45.jpg', alt: ""%>
+            <a target="_blank" href="template/shop-checkout.html" class="overlay-link"><i class="fa fa-link"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="blog" class="pv-40 light-gray-bg">
+  <div class="container">
+    <div class="row justify-content-md-center">
+      <div class="col-md-8">
+        <h2 class="text-center mb-4">Blog</h2>
+        <div class="separator"></div>
+        <div class="pb-4"></div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-6 col-12">
+        <h4 class="text-center text-muted mt-4">Blog Home 1</h4>
+        <div class="image-box shadow-3 text-center mb-20">
+          <div class="overlay-container">
+              <%= image_tag 'intro-images/demo-27.jpg', alt: ""%>
+            <a target="_blank" href="template/index-blog.html" class="overlay-link"><i class="fa fa-link"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-12">
+        <h4 class="text-center text-muted mt-4">Blog Home 2</h4>
+        <div class="image-box shadow-3 text-center mb-20">
+          <div class="overlay-container">
+              <%= image_tag 'intro-images/demo-36.jpg', alt: ""%>
+            <a target="_blank" href="template/index-blog-2.html" class="overlay-link"><i class="fa fa-link"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="sliders" class="pv-40">
+  <div class="container-fluid">
+    <div class="row justify-content-md-center">
+      <div class="col-md-8">
+        <h2 class="text-center mb-4">Sliders</h2>
+        <div class="separator"></div>
+        <div class="pb-4"></div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-3 col-md-6">
+        <h4 class="text-center text-muted mt-4">Fullscreen</h4>
+        <div class="image-box shadow-3 text-center mb-20">
+          <div class="overlay-container">
+              <%= image_tag 'intro-images/demo-16.jpg', alt: ""%>
+            <a target="_blank" href="template/features-sliders-fullscreen.html" class="overlay-link"><i class="fa fa-link"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6">
+        <h4 class="text-center text-muted mt-4">Full Width</h4>
+        <div class="image-box shadow-3 text-center mb-20">
+          <div class="overlay-container">
+            <%= image_tag 'intro-images/demo-17.jpg', alt: ""%>
+            <a target="_blank" href="template/features-sliders-fullwidth.html" class="overlay-link"><i class="fa fa-link"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6">
+        <h4 class="text-center text-muted mt-4">Full Width Big Height</h4>
+        <div class="image-box shadow-3 text-center mb-20">
+          <div class="overlay-container">
+              <%= image_tag 'intro-images/demo-18.jpg', alt: ""%>
+            <a target="_blank" href="template/features-sliders-fullwidth-big-height.html" class="overlay-link"><i class="fa fa-link"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6">
+        <h4 class="text-center text-muted mt-4">Boxed Light Background</h4>
+        <div class="image-box shadow-3 text-center mb-20">
+          <div class="overlay-container">
+              <%= image_tag 'intro-images/demo-19.jpg', alt: ""%>
+            <a target="_blank" href="template/features-sliders-boxedwidth-light.html" class="overlay-link"><i class="fa fa-link"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-3 col-md-6">
+        <h4 class="text-center text-muted mt-4">Boxed Dark Background</h4>
+        <div class="image-box shadow-3 text-center mb-20">
+          <div class="overlay-container">
+              <%= image_tag 'intro-images/demo-20.jpg', alt: ""%>
+            <a target="_blank" href="template/features-sliders-boxedwidth-dark.html" class="overlay-link"><i class="fa fa-link"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6">
+        <h4 class="text-center text-muted mt-4">Boxed Colored Background</h4>
+        <div class="image-box shadow-3 text-center mb-20">
+          <div class="overlay-container">
+              <%= image_tag 'intro-images/demo-21.jpg', alt: ""%>
+            <a target="_blank" href="template/features-sliders-boxedwidth-default.html" class="overlay-link"><i class="fa fa-link"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6">
+        <h4 class="text-center text-muted mt-4">Video Background</h4>
+        <div class="image-box shadow-3 text-center mb-20">
+          <div class="overlay-container">
+              <%= image_tag 'intro-images/demo-22.jpg', alt: ""%>
+            <a target="_blank" href="template/features-sliders-video-background.html" class="overlay-link"><i class="fa fa-link"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6">
+        <h4 class="text-center text-muted mt-4">Text Rotator</h4>
+        <div class="image-box shadow-3 text-center mb-20">
+          <div class="overlay-container">
+              <%= image_tag 'intro-images/demo-23.jpg', alt: ""%>
+            <a target="_blank" href="template/features-sliders-text-rotator.html" class="overlay-link"><i class="fa fa-link"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- footer end -->
+
+</div>
+<!-- page-wrapper end -->
+

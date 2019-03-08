@@ -1,0 +1,39 @@
+<%= form_with(model: comment, local: true) do |form| %>
+  <% if comment.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(comment.errors.count, "error") %> prohibited this comment from being saved:</h2>
+
+      <ul>
+      <% comment.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= form.label :commenter %>
+    <%= form.text_field :commenter %>
+  </div>
+
+  <div class="field">
+    <%= form.label :body %>
+    <%= form.text_area :body %>
+  </div>
+
+
+  <h5>Add Comments Images</h5>
+  <%= form.fields_for :pictures do |picture| %>
+    <%= render 'picture_fields', form: picture %>
+  <% end %>
+
+  <div class="links">
+    <%= link_to_add_association 'Add Picture', form, :pictures %>
+  </div>
+  <br>
+  <div class="actions">
+    <%= form.submit %>
+  </div>
+<% end %>
+<%= link_to 'Home', root_path %>
+<%= render "articles/links" %>

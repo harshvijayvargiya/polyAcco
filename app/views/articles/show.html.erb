@@ -1,0 +1,33 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @article.title %>
+</p>
+
+<p>
+  <strong>Content:</strong>
+  <%= @article.content %>
+</p>
+ 
+<%= link_to 'Edit', edit_article_path(@article) %> |
+
+<%= link_to 'Back', articles_path %>
+
+<% @article.pictures.each do |picture| %>
+  <% if picture.name_url.present? %>
+    <%= image_tag picture.name_url, width:"150", height:"150" %>
+  <% end %>
+<% end %>
+
+<% if @article.is_active? %>
+  <li>
+  <%= link_to 'Inactive This Article', inactive_article_path(@article), method: :patch %>
+  </li>
+<% else %>
+  <li>
+  <%= link_to "Active This Article", active_article_path(@article), method: :patch %>
+  </li>
+<% end %>
+<%= render "articles/links" %>
+<%= link_to 'Home', root_path %>

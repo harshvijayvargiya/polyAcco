@@ -1,0 +1,19 @@
+<div class = "well">
+<%= form_with(model: @resume, local: true) do |form| %>
+<p>
+    <%= form.label :name %><br>
+    <%= form.text_field :name %>
+  </p>
+ 
+  <p>
+    <%= form.label :attachment %><br>
+    <%= form.file_field :attachment %>
+  </p>
+ 
+  <p>
+    <%= form.submit 'Update Resume', class: 'btn btn-primary' %>
+  </p>
+ 
+  <%= link_to "Back", resumes_path, class: 'btn btn-primary'%>
+<% end %>
+</div>

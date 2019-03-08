@@ -1,0 +1,15 @@
+<div class = "well">
+<p>
+  <strong>Name:</strong>
+  <%= @resume.name %>
+</p>
+
+<p>
+  <strong>Attachment:</strong>
+  <%= @resume.attachment %>
+</p>
+ 
+<%= link_to 'Edit', edit_resume_path(@resume), class: "btn btn-primary" %> |
+
+<%= link_to 'Back', resumes_path, class: "btn btn-primary" %>
+</div>
